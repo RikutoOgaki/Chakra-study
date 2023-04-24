@@ -1,11 +1,28 @@
-import { Box, Flex, Text } from '@chakra-ui/react'
+import {
+    Box, Flex, Text, Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+    MenuItemOption,
+    MenuGroup,
+    MenuOptionGroup,
+    MenuDivider,
+} from '@chakra-ui/react'
 
 export default function Sample01() {
     return (
         <>
-            <Box>
-                <Text>Hello World</Text>
-            </Box>
+            <Flex>
+                <Menu>
+
+                    <MenuList>
+                        <MenuItem>a</MenuItem>
+                        <MenuItem>b</MenuItem>
+                        <MenuItem>c</MenuItem>
+                        <MenuItem>d</MenuItem>
+                    </MenuList>
+                </Menu>
+            </Flex>
         </>
     )
 }
