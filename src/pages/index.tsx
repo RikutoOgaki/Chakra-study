@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <>
       <Flex>
-        <Link href={'/smaples/01'}>sample01</Link>
+        <Link href={'/samples/01'}>samples01</Link>
       </Flex>
     </>
   )
